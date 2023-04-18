@@ -1,0 +1,32 @@
+﻿Build started 4/18/2023 11:35:15 PM.
+     1>Project "G:\BITS\Project\source\Image_stream\NxUDP-client\NxUDP-client\NxUDP-client.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt file_parse.c "NxUDP-client.c" NxUDP_pkt_parser.c TEA.c
+         TEA.c
+     1>g:\bits\project\source\image_stream\nxudp-client\nxudp-client\tea.c(51): warning C4047: 'function' : 'uint32_t *' differs in levels of indirection from 'uint32_t (*)[2]'
+     1>g:\bits\project\source\image_stream\nxudp-client\nxudp-client\tea.c(51): warning C4024: 'encrypt' : different types for formal and actual parameter 1
+     1>g:\bits\project\source\image_stream\nxudp-client\nxudp-client\tea.c(34): warning C4101: 'blocks' : unreferenced local variable
+     1>g:\bits\project\source\image_stream\nxudp-client\nxudp-client\tea.c(87): warning C4047: 'function' : 'uint32_t *' differs in levels of indirection from 'uint32_t (*)[2]'
+     1>g:\bits\project\source\image_stream\nxudp-client\nxudp-client\tea.c(87): warning C4024: 'decrypt' : different types for formal and actual parameter 1
+     1>g:\bits\project\source\image_stream\nxudp-client\nxudp-client\tea.c(92): warning C4047: '=' : 'uint8_t' differs in levels of indirection from 'void *'
+         NxUDP_pkt_parser.c
+     1>g:\bits\project\source\image_stream\nxudp-client\nxudp-client\nxudp_pkt_parser.c(80): warning C4244: '=' : conversion from 'uint16_t' to 'uint8_t', possible loss of data
+         NxUDP-client.c
+     1>g:\bits\project\source\image_stream\nxudp-client\nxudp-client\nxudp-client.c(34): warning C4133: 'function' : incompatible types - from 'uint32_t *' to 'uint8_t *'
+     1>g:\bits\project\source\image_stream\nxudp-client\nxudp-client\nxudp-client.c(40): warning C4013: 'close' undefined; assuming extern returning int
+         file_parse.c
+     1>g:\bits\project\source\image_stream\nxudp-client\nxudp-client\file_parse.c(20): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>g:\bits\project\source\image_stream\nxudp-client\nxudp-client\file_parse.c(18): warning C4101: 'ch' : unreferenced local variable
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\BITS\Project\source\Image_stream\NxUDP-client\Debug\NxUDP-client.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:\BITS\Project\source\Image_stream\NxUDP-client\Debug\NxUDP-client.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\BITS\Project\source\Image_stream\NxUDP-client\Debug\NxUDP-client.lib" /MACHINE:X86 Debug\file_parse.obj
+         "Debug\NxUDP-client.obj"
+         Debug\NxUDP_pkt_parser.obj
+         Debug\TEA.obj
+         NxUDP-client.vcxproj -> G:\BITS\Project\source\Image_stream\NxUDP-client\Debug\NxUDP-client.exe
+     1>Done Building Project "G:\BITS\Project\source\Image_stream\NxUDP-client\NxUDP-client\NxUDP-client.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.65
